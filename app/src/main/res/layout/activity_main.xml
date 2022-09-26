@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorPrimaryVariant">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_show_toast_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="showToast(message)"
+            android:textAllCaps="false"
+            android:textColor="@color/ct_text_color"
+            android:textSize="@dimen/_12ssp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btn_show_toast_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="showToast(message, duration)"
+            android:textAllCaps="false"
+            android:textColor="@color/ct_text_color"
+            android:textSize="@dimen/_12ssp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btn_show_toast_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="showToast(message, duration, iconResId)"
+            android:textAllCaps="false"
+            android:textColor="@color/ct_text_color"
+            android:textSize="@dimen/_12ssp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btn_show_toast_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="showToast(message, duration, iconResId, backgroundColor)"
+            android:textAllCaps="false"
+            android:textColor="@color/ct_text_color"
+            android:textSize="@dimen/_12ssp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btn_show_success_toast_long"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="showSuccessToast(message, duration)"
+            android:textAllCaps="false"
+            android:textColor="@color/ct_text_color"
+            android:textSize="@dimen/_12ssp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btn_show_success_toast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="showSuccessToast(message)"
+            android:textAllCaps="false"
+            android:textColor="@color/ct_text_color"
+            android:textSize="@dimen/_12ssp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btn_show_error_toast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="showErrorToast(message)"
+            android:textAllCaps="false"
+            android:textColor="@color/ct_text_color"
+            android:textSize="@dimen/_12ssp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btn_show_info_toast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="showInfoToast(message)"
+            android:textAllCaps="false"
+            android:textColor="@color/ct_text_color"
+            android:textSize="@dimen/_12ssp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btn_show_warning_toast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="showWarningToast(message)"
+            android:textAllCaps="false"
+            android:textColor="@color/ct_text_color"
+            android:textSize="@dimen/_12ssp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btn_show_works_continues_toast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="showWorksContinuesToast()"
+            android:textAllCaps="false"
+            android:textColor="@color/ct_text_color"
+            android:textSize="@dimen/_12ssp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btn_set_free_toast_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="set Free Toast 1"
+            android:textAllCaps="false"
+            android:textColor="@color/ct_text_color"
+            android:textSize="@dimen/_12ssp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btn_set_free_toast_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="set Free Toast 2"
+            android:textAllCaps="false"
+            android:textColor="@color/ct_text_color"
+            android:textSize="@dimen/_12ssp"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+</ScrollView>

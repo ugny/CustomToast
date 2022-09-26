@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ct_success_color">#3DA136</color>
+    <color name="ct_error_color">#CD3434</color>
+    <color name="ct_info_color">#2036B6</color>
+    <color name="ct_warning_color">#BD9704</color>
+    <color name="ct_text_color">#FFFFFF</color>
+
+    <dimen name="ct_icon_size">@dimen/_40sdp</dimen>
+
+    <style name="ct_animation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+</resources>
