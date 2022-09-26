@@ -15,7 +15,7 @@ bir nesne oluşturulduktan sonra <b>iki farklı kullanım vardır:</b>
     customToast.showToast("Toast message...");
     customToast.showToast("Toast message...", Duration.SHORT);
     customToast.showToast("Toast message...", Duration.LONG, R.drawable.ct_ic_mood);
-    customToast.showToast("Toast message...", Duration.EX_LONG, R.drawable.ct_ic_mood, getResources().getColor(R.color.teal_700));
+    customToast.showToast("Toast message...", Duration.EX_LONG, R.drawable.ct_ic_mood, Color.BLUE);
         
     customToast.showSuccessToast(getResources(), "Toast message with Success...");
     customToast.showErrorToast(getResources(), "Toast message with Error...");
